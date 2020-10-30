@@ -27,11 +27,6 @@
   color:#DC6E25 !important;
 }
 
-a.btn:hover{
-  background-color: transparent !important;
-  border: 2px solid #DC6E25 !important;
-}
-
 /*   Fonts   */
 h1, h2, h3{
   font-family: 'Josefin Sans', sans-serif;
@@ -75,12 +70,17 @@ a{
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  letter-spacing: 3px;
+  letter-spacing: px;
   transition: all 0.5s ease-in-out;
   text-decoration: none !important;
 }
 a:hover{
   transition: all 0.5s ease-in-out;
+}
+
+a.btn:hover{
+  background-color: transparent !important;
+  border: 2px solid #DC6E25 !important;
 }
 
 /*  Others  */
