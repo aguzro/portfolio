@@ -12,20 +12,31 @@
   <title>Allison Guzmán Portfolio</title>
 </head>
 <body class="bg-ligth">
-  <header class="pt-5 pb-5">
-    <nav class="container">
-      <ul class="nav justify-content-end">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="w-50" src="assets/img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link links" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
         <li class="nav-item">
           <a class="nav-link links" href="#proyectos">Proyectos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link links" href="about.html">Sobre Mí</a>
+          <a class="nav-link links" href="about.html">Proyectos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link links" href="#contacto">Contacto</a>
         </li>
       </ul>
-    </nav>
+    </div>
+    </div>
+  </nav>
+  <header class="pt-5 pb-5">
     <div class="container">
       <div class="row">
         <div class="col">
@@ -41,88 +52,71 @@
     </div>
   </header>
   <section id="proyectos" class="container pt-5 pb-5">
-    <div class="row no-gutters">
-      <div class="col-sm-8 prj-box">
-        <img class="img-fluid prj-img" src="assets/img/conexionsur/sitioactual.png" alt="">
-        <div class="middle">
-          <div class="pt-5 pb-5 pl-5 pr-5 bg-dark">
-            <h3 class="color-text">Conexión Sur Website</h3>
-            <p class="light-text">Diseño y construcción de sitio web para consultora Conexión Sur</p>
-            <a class=" nav-link links" href="conexionsur.html">Leer caso de estudio</a>
-          </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <img class="img-fluid" src="assets/img/conexionsur/cs-portada.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <div class="pt-5 pb-5 pl-4 pr-4 bg-dark">
+          <h3 class="color-text">Conexión Sur Website</h3>
+          <p class="light-text little-prg">Diseño y construcción de sitio web para consultora Conexión Sur</p>
+          <a class=" nav-link links" href="conexionsur.html">Leer caso de estudio</a>
         </div>
       </div>
-      <div class="col-sm-4">
-        <div class="prj-box">
-          <img class="img-fluid prj-img" src="https://images.unsplash.com/photo-1591204892365-da093b0af9a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60" alt="">
-          <div class="middle">
-            <div class="pt-2 pb-2 pl-4 pr-4 bg-dark">
-              <h3 class="color-text">Conecta Vida</h3>
-              <p class="light-text little-prg">Emprendimiento que resuelve las necesidades de los pacientes e instituciones relacionadas a la donación de sangre</p>
-              <a class=" nav-link links" href="conectavida.html">Leer caso de estudio</a>
-            </div>
-          </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <img class="img-fluid prj-img" src="assets/img/matrixconsulting/matrix-portada.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <div class="pt-5 pb-5 pl-4 pr-4 bg-dark">
+          <h3 class="color-text">Conecta Vida</h3>
+          <p class="light-text little-prg">Emprendimiento que resuelve las necesidades de los pacientes e instituciones relacionadas a la donación de sangre</p>
+          <a class=" nav-link links" href="conectavida.html">Leer caso de estudio</a>
         </div>
       </div>
-      <div class="row no-gutters">
-        <div class="col-sm prj-box">
-          <img class="img-fluid prj-img" src="https://images.unsplash.com/photo-1591511462721-bda0e003db7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80" alt="">
-          <div class="middle">
-            <div class="pt-1 pb-1 pl-1 pr-1 bg-dark">
-              <h3 class="color-text">Viridi</h3>
-              <p class="light-text little-prg">Diseño emprendimiento de alimentación saludable</p>
-              <a class=" nav-link links" href="viridi.html">Leer caso de estudio</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid" src="https://images.unsplash.com/photo-1589088483612-7160434c9b85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
-        </div>
-        <div class="col-sm">
-          <img class="img-fluid" src="https://images.unsplash.com/photo-1591511462077-9e5a9088e1ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80" alt="">
+    </div>
+  </section>  
+  <footer id="contacto" class="pt-5 pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2>¿Te gustaría que trabajaramos juntos?</h2>
         </div>
       </div>
-    </section>
-    <footer id="contacto" class="pt-5 pb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h2>¿Quieres trabajar conmigo?</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>Puedes escribirme a <span class="color-text">allison.guzman.rojas@gmail.com</span> y estaré encantada en conversar contigo.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link links" href="https://www.linkedin.com/in/allison-guzman/">LinkedIn</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link links" href="https://github.com/aguzro">Github</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link links" href="https://www.behance.net/alliguzmn">Behance</a>
-              </li>
-            </ul>
-          </div>
+      <div class="row">
+        <div class="col">
+          <p>Entonces escríbeme a <span class="color-text">allison.guzman.rojas@gmail.com</span> y estaré encantada en conversar contigo.</p>
         </div>
       </div>
-    </footer>
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
-    
-    <script src="assets/js/main.js"></script>
-  </body>
-  </html>
+      <div class="row">
+        <div class="col">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link links" href="https://www.linkedin.com/in/allison-guzman/">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="https://github.com/aguzro">Github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="https://www.behance.net/alliguzmn">Behance</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="cursor"></div>
+  <div class="cursor2"></div>
+  
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+  
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
