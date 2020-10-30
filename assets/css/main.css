@@ -17,11 +17,19 @@
 .bg-color{
   background-color: #DC6E25;
 }
+.bg-color-light{
+  background-color: #B07656;
+}
 .links{
   color: #B07656 !important;
 }
 .links:hover{
   color:#DC6E25 !important;
+}
+
+a.btn:hover{
+  background-color: transparent !important;
+  border: 2px solid #DC6E25 !important;
 }
 
 /*   Fonts   */
@@ -50,14 +58,8 @@ p{
 }
 
 span{
-  font-size: 30px;
+  font-weight: 400;
 }
-
-.little-prg{
-  font-size: 15px;
-  font-weight: 200;
-}
-
 
 
 /*  Others  */
@@ -65,12 +67,17 @@ body{
   cursor: none;
 }
 
+header{
+  height: 70vh;
+}
+
 a{
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  letter-spacing: 6px;
+  letter-spacing: 3px;
   transition: all 0.5s ease-in-out;
+  text-decoration: none !important;
 }
 a:hover{
   transition: all 0.5s ease-in-out;
