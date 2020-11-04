@@ -163,8 +163,7 @@ a:hover:after{
     font-size: 18px;
     font-weight: 200;
   }
-
-
-
-
+  .cursor, .cursor2{
+    display: none;
+  }
 }
